@@ -9,7 +9,6 @@ import {ConfigService} from './config.service';
 })
 export class AppComponent {
   orders: Order[];
-
   constructor(private configService: ConfigService){};
 
   ngOnInit() {
